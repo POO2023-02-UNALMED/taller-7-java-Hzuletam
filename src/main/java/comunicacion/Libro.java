@@ -1,4 +1,4 @@
-package coomunicacion;
+package comunicacion;
 
 public class Libro extends Escrito {
 

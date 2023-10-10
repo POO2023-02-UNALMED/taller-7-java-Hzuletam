@@ -61,12 +61,12 @@ public class Tesis extends  Escrito{
         this.interpretacion = interpretacion;
     }
     public int palabrasTotales(int palabrasPagina){
-        return this.paginas *5;
+        return this.getPaginas() *5;
 
     }
 
 
     public String toString(){
-        return String.format("%s\n%s\n%s\n%d\n%s\n%d\n%s\n%s",this.origen,this.titulo,this.autor,this.paginas,this.idea,this.argumentos.size(),this.conclusion,this.referencias);
+        return String.format("%s\n%s\n%s\n%d\n%s\n%d\n%s\n%s",this.getOrigen(),this.getTitulo(),this.getAutor(),this.getPaginas(),this.idea,this.argumentos.length,this.conclusion,this.referencias);
     }
 }

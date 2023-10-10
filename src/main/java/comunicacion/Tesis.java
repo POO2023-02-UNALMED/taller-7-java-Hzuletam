@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Tesis extends  Escrito{
 
     private String idea;
-    private String[] argumentos = new String[];
+    private String[] argumentos = new String[0];
     private String conclusion;
     private String referencias;
     private String interpretacion;

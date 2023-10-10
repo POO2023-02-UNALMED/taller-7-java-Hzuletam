@@ -12,7 +12,7 @@ public class Alfabeto extends Pictograma{
     }
 
     public String[] getLetras(){
-        return this.letras;
+        return this.getLetras;
     }
 
     public void setLetras(String[] letras){

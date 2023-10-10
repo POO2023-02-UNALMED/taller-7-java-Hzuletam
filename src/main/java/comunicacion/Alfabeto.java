@@ -36,9 +36,9 @@ public class Alfabeto extends Pictograma{
             }else{
                 cadena+=(", "+ letra);
             }
-            return cadena;
+        
         }
-
+        return cadena;
     }
 
     public int cantidadLetras(){

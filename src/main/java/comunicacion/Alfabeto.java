@@ -32,7 +32,7 @@ public class Alfabeto extends Pictograma{
         String cadena =(this.letras[0]+"");
         for (String letra: this.letras){
             if (letra == letras[0]){
-                continue
+                continue;
             }else{
                 cadena+=(", "+ letra);
             }

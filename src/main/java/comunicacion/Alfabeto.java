@@ -29,7 +29,15 @@ public class Alfabeto extends Pictograma{
     }
 
     public  String toString(){
-        return "a, b, c, d, e, f, g, h, i, j, k, l, m, n , o, p, q, r, s, t, u, v, w, x, y, z";
+        String cadena =(this.letras[0]+"");
+        for (String letra: this.letras){
+            if letra == letras[0]{
+                continue
+            }else{
+                cadena+=(", "+ letra);
+            }
+            return cadena;
+        }
 
     }
 

@@ -50,7 +50,7 @@ public class Libro extends Escrito {
     }
 
     public String toString(){
-        return String.format("%s\n%s\n%s\n%d\n%s\n%s\n%s",this.getOrigen(),this.getTitulo(),this.getAutor(),this.getPaginas(),this.co_autor,this.editorial,this.edicion);
+        return this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+ this.getPaginas()+"\n"+this.co_autor+"\n"+this.editorial+"\n"+this.edicion;
 
     }
 }

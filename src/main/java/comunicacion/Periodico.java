@@ -36,10 +36,10 @@ public class Periodico extends Escrito {
         this.interpretacion = interpretacion;
     }
     public int palabrasTotales(int palabrasPagina){
-        return this.getPaginas() * 10;
+        return this.getPaginas() * palabrasPagina;
     }
 
     public String toString(){
-        return this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+ this.getPaginas()+"\n"+this.getFecha()+"\n"+this.getPrimicia();
+        return (this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+ this.getPaginas()+"\n"+this.getFecha()+"\n"+this.getPrimicia());
     }
 }
